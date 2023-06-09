@@ -1,0 +1,67 @@
+.seller_page {
+  display: flex;
+  justify-content: center;
+  background-color: #fa0707;
+}
+.seller_page_container {
+  align-items: center;
+  width: 992px;
+  height: 1939px;
+  background-color: rgb(245, 239, 239);
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  background-color: green;
+}
+.uflip-logo-frame {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.logo {
+}
+.header-frame {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
+.user-logo-frame {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #febd1d;
+}
+
+.flipper_link {
+  text-decoration: none;
+}
+.seller_link {
+  text-decoration: none;
+}
+
+/* .logo,
+.user-solid,
+.header-frame {
+  display: inline;
+} */

@@ -36,7 +36,7 @@
   padding: 0px;
 
   width: 992px;
-  height: 1900px;
+  height: 1885px;
 
   /* background: #3f473f; */
 
@@ -76,20 +76,21 @@
 
   /* Auto layout */
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
-  gap: 10px;
+  align-items: flex-start; */
+  /* padding: 10px; */
+  /* gap: 10px; */
 
-  width: 195px;
-  height: 40px;
+  /* width: 195px;
+  height: 40px; */
 
   /* Inside auto layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  /* flex: none; */
+  /* order: 0; */
+  flex-grow: 1;
+  background-color: red;
 }
 .logo {
   width: 148px;
@@ -116,119 +117,115 @@
   flex-grow: 1;
 } */
 .header_frame {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center; /* Align items horizontally in the center */
-  align-items: center;
+  justify-content: center; */ /* Align items horizontally in the center */
+  /*align-items: center;
   padding: 0px;
-  gap: 10px;
-  width: 715px;
-  height: 50px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 1;
+  gap: 40px; */
+  /* width: 715px;
+  height: 50px; */
+  /* flex: none; */
+  /* order: 1; */
+  /* align-self: stretch; */
+  flex-grow: 2;
+  background-color: blue;
 }
 
-.flipper-seller_frame {
+/* .flipper-seller_frame {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 1px 1px;
   gap: 40px;
 
-  justify-content: center;
-  /* width: 332px; */
+  justify-content: center; */
+/* width: 332px; */
 
-  height: 50px;
+/* height: 50px;
 
   flex: none;
   order: 0;
-  flex-grow: 1;
+  flex-grow: 2;
   margin-right: 168px;
-}
+}  */
 
 .flipper_link {
   /* flipper */
 
-  width: 142px;
-  height: 50px;
-
-  font-family: "Montserrat";
+  /* font-family: "Montserrat";
   font-style: bold;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 28px; */
+  /* line-height: 40px; */
   /* identical to box height, or 179% */
 
-  letter-spacing: 3px;
+  /* letter-spacing: 3px;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: #ffffff; */
 
   /* Inside auto layout */
 
-  flex: none;
+  /* flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0; */
 
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .seller_link {
   /* seller */
 
-  width: 125px;
-  height: 50px;
-
-  font-family: "Montserrat";
+  /* font-family: "Montserrat";
   font-style: bold;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 41px;
+  font-size: 28px; */
+  /* line-height: 41px; */
   /* identical to box height, or 179% */
 
-  letter-spacing: 3px;
+  /* letter-spacing: 3px;
   text-transform: uppercase;
 
-  color: #febd1d;
+  color: #febd1d; */
 
   /* Inside auto layout */
 
-  flex: none;
+  /* flex: none;
   order: 1;
   flex-grow: 0;
 
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 .user-logo-frame {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px 15px;
-  gap: 10px;
+  gap: 10px; */
 
-  width: 32px;
-  height: 44px;
+  /* width: 32px;
+  height: 44px; */
 
-  flex: none;
+  /* flex: none;
   order: 2;
-  align-self: stretch;
-  flex-grow: 0;
+  align-self: stretch; */
+  background-color: green;
+  flex-grow: 1;
 }
 .user-solid {
   /* user-solid-sm 1 */
 
-  width: 23.92px;
-  height: 28px;
+  /* width: 23.92px;
+  height: 28px; */
 
   /* Inside auto layout */
 
-  flex: none;
+  /* flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0; */
 }
 
 .main_body_content {
@@ -1073,17 +1070,21 @@
 }
 
 .inner-policy {
+  padding-top: 20px;
   height: 50px;
   line-height: 25px;
 }
 
 .pp {
   text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 .cc {
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Montserrat";
 }
 .ticket-pattern {
   position: absolute;
@@ -1091,6 +1092,7 @@
   right: 0px;
   top: -145px;
   bottom: -11px;
+  height: 1885;
 
   background: url(ticket-pattern-b.png);
 
