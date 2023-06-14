@@ -80,7 +80,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   padding: 70px;
-
+  padding-bottom: 50px;
   /* height: 1939px; */
 
   background-color: #0f0f0e;
@@ -118,8 +118,8 @@ body {
   align-items: center;
 
   /* padding: 10px; */
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   gap: 10px;
 
   width: 852px;
