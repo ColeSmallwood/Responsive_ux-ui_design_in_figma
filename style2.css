@@ -4,17 +4,17 @@
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
 }
-
-.seller_page {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(100, 97, 97);
-}
 body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.seller_page {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(2, 2, 2);
 }
 .seller_page_container {
   align-items: center;
@@ -64,13 +64,6 @@ body {
 
 .nav-link.active {
   color: #febd1d;
-}
-
-.flipper_link {
-  text-decoration: none;
-}
-.seller_link {
-  text-decoration: none;
 }
 
 .main-body-content {
@@ -403,12 +396,8 @@ body {
 }
 
 .instant-access-img {
-  width: 67px;
-  height: 94px;
-
-  background: url(instant-access.png);
-
-  /* Inside auto layout */
+  /* width: 67px;
+  height: 94px; */
 
   flex: none;
   order: 0;
@@ -500,8 +489,8 @@ body {
   align-items: center;
   padding: 0px;
   gap: 10px;
-  width: 55px;
-  height: 93px;
+  /* width: 55px;
+  height: 93px; */
   flex: none;
   order: 0;
   flex-grow: 0;
