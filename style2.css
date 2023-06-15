@@ -1,3 +1,10 @@
+/* 22PX FONT SIZE FOR 4 PARAGRAPHS HEADER 
+   14PX FOR THE BODY-TEXT
+
+
+   set max-width with rem
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +21,8 @@ body {
 .seller_page {
   display: flex;
   justify-content: center;
-  background-color: rgb(2, 2, 2);
+  background-image: url(imgs/ticket-pattern-b.png);
+  background-color: #232323;
 }
 .seller_page_container {
   align-items: center;
@@ -75,11 +83,11 @@ body {
   background-color: #232323;
 }
 .broker-like-a-boss {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px;
+  /* padding: 0px;
   gap: 8.25px;
 
   width: 852px;
@@ -729,7 +737,4 @@ body {
   text-align: center;
   color: white;
   font-family: "Montserrat";
-}
-
-.ticket-pattern {
 }
