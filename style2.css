@@ -78,6 +78,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
   padding: 70px;
 
   background-color: #232323;
@@ -199,7 +200,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: 15px;
 
   width: 427px;
 
@@ -241,7 +242,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: 5px;
 
   /* background-color: black; */
 }
@@ -249,12 +250,12 @@ body {
 .more-opp-heading {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 20px;
+  letter-spacing: normal;
   /* or 100% */
 
-  letter-spacing: 3px;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -282,7 +283,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: 15px;
   margin-top: 9px;
   width: 421px;
 
@@ -328,12 +329,12 @@ body {
 .real-time-header {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 20px;
   /* or 100% */
 
-  letter-spacing: 3px;
+  letter-spacing: normal;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -375,7 +376,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 15px;
 
   margin-bottom: 10px;
 
@@ -417,7 +417,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 10px;
+  gap: 5px;
 
   /* height: 127px; */
 
@@ -427,12 +427,12 @@ body {
 .instant-header {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 20px;
   /* or 100% */
 
-  letter-spacing: 3px;
+  letter-spacing: normal;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -462,7 +462,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
 
-  gap: 34px;
+  gap: 20px;
 
   /* height: 154px; */
 
@@ -509,7 +509,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 27px;
+  gap: 30px;
   flex: none;
   order: 1;
   flex-grow: 1;
@@ -523,12 +523,13 @@ body {
 
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
-  line-height: 20px;
+  /* line-height: 20px; */
   /* or 100% */
 
-  letter-spacing: 3px;
+  gap: 10px;
+  letter-spacing: normal;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -539,14 +540,14 @@ body {
 }
 
 .inventory-text {
-  width: 279px;
+  width: 318px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
   letter-spacing: 2px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   flex: none;
   order: 1;
@@ -560,6 +561,8 @@ body {
   align-items: center;
   padding: 0px 70px;
   gap: 10px;
+
+  margin-top: 25px;
 
   flex: none;
   order: 1;
@@ -575,7 +578,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 20px;
+  gap: 10px;
   flex: none;
   order: 0;
   align-self: stretch;
@@ -609,12 +612,12 @@ body {
 .crush-header {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 34px;
   line-height: 20px;
   letter-spacing: normal;
 
-  letter-spacing: 3px;
+  letter-spacing: normal;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -631,9 +634,14 @@ body {
   color: #ffffff;
 }
 
+.crush-img {
+  height: 147px;
+  width: 159;
+}
+
 .sign-up-for-demo {
   box-sizing: border-box;
-  margin-top: 30px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -643,7 +651,10 @@ body {
   width: 825px;
   height: 115px;
   border: 3px solid #febd1d;
-  border-radius: 25px;
+  border-radius: 15px;
+
+  margin: 0 auto;
+  margin-top: 50px;
 
   flex: none;
   order: 5;
@@ -670,6 +681,7 @@ body {
   padding: 0px;
 
   width: 992px;
+  height: 56px;
   flex: none;
   order: 2;
   align-self: stretch;
@@ -694,7 +706,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 343px;
+
   gap: 10px;
   width: 10px;
   height: 50px;
@@ -720,16 +732,21 @@ body {
   align-self: stretch;
   flex-grow: 0;
 
-  /* background-color: #ee18a7; */
+  background-color: #ee18a7;
 }
 
 .inner-policy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pp {
   text-align: center;
   font-family: "Montserrat";
   font-weight: bold;
+  font-size: 13px;
   color: white;
 }
 
@@ -737,4 +754,5 @@ body {
   text-align: center;
   color: white;
   font-family: "Montserrat";
+  font-size: 14px;
 }
