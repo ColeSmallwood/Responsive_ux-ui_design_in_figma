@@ -15,6 +15,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+
   margin-right: 0;
 }
 
@@ -22,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   background-image: url(imgs/ticket-pattern-b.png);
+  background-position: center;
   background-color: #232323;
 }
 .seller_page_container {
@@ -135,6 +137,9 @@ body {
 }
 
 .steps-img {
+  width: 100%;
+  height: auto;
+
   flex: none;
   order: 0;
   flex-grow: 1;

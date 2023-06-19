@@ -320,6 +320,16 @@
   flex-grow: 0;
 }
 
+.steps-img {
+  width: 475px;
+  height: 289px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
 .three-steps {
   width: 852px;
   height: 528px;
