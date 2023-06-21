@@ -29,8 +29,8 @@ body {
 .seller_page {
   display: flex;
   justify-content: center;
-  background-image: url(imgs/ticket-pattern-b.png);
-  background-position: center;
+  background-image: url(imgs/webP_ticket_pattern.webp);
+  /* background-attachment: fixed; */
   background-color: #232323;
 }
 .seller_page_container {
@@ -377,10 +377,11 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-size: 1.4rem;
 
-  letter-spacing: 0.2rem;
+  /* line-height: 17px; */
+  /* letter-spacing: 2px; */
+  /* text-transform: undercase; */
 
   color: #ffffff;
 
@@ -475,15 +476,13 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  /* or 106% */
+  font-size: 1.4rem;
 
-  letter-spacing: 0.2rem;
+  /* line-height: 17px; */
+  /* letter-spacing: 2px; */
+  /* text-transform: undercase; */
 
   color: #ffffff;
-
-  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -577,11 +576,14 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  letter-spacing: 0.2rem;
-  text-transform: none;
+  font-size: 1.4rem;
+
+  /* line-height: 17px; */
+  /* letter-spacing: 2px; */
+  /* text-transform: undercase; */
+
   color: #ffffff;
+
   flex: none;
   order: 1;
   flex-grow: 0;
