@@ -25,12 +25,17 @@ body {
 
   margin-right: 0;
 }
-
+.real-time-frame.tablet {
+  display: none;
+}
+.instant-access-frame.tablet {
+  display: none;
+}
 .seller_page {
   display: flex;
   justify-content: center;
   background-image: url(imgs/webP_ticket_pattern.webp);
-  /* background-attachment: fixed; */
+  background-position: cover;
   background-color: #232323;
 }
 .seller_page_container {
@@ -599,7 +604,6 @@ body {
 
   margin-top: 2.5rem;
 
-  flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
@@ -637,7 +641,7 @@ body {
 .crush-paragraph {
   width: 52.9rem;
   gap: 1rem;
-  flex: none;
+  /* flex: none; */
   order: 1;
   flex-grow: 1;
 

@@ -8,7 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="icon" href="imgs/ufLogoSM.png" />
     <link href="style2.css" rel="stylesheet" />
     <link href="queries.css" rel="stylesheet" />
@@ -58,7 +59,7 @@
                 <div class="home-text hidden">HOME</div>
               </div>
               <div class="home-icon hidden">
-                <i class="fa-solid fa-house"></i>
+                <ion-icon class="icon1" name="home"></ion-icon>
               </div>
             </div>
             <div class="home hidden">
@@ -66,7 +67,7 @@
                 <div class="home-text hidden">FLIPPER</div>
               </div>
               <div class="home-icon hidden">
-                <ion-icon class="icon hidden"  name="person"></ion-icon>
+                <ion-icon class="icon2" name="person"></ion-icon>
               </div>
             </div>
             <div class="home hidden">
@@ -74,7 +75,7 @@
                 <div class="home-text hidden" id="seller-link">SELLER</div>
               </div>
               <div class="home-icon hidden">
-                <ion-icon class="icon hidden"  name="person"></ion-icon>
+                <ion-icon name="person"></ion-icon>
               </div>
             </div>
             <div class="home hidden">
@@ -82,7 +83,7 @@
                 <div class="home-text hidden">LOGIN</div>
               </div>
               <div class="home-icon hidden">
-                <ion-icon  class="icon hidden"  name="home-outline"></ion-icon>
+                <ion-icon class="icon2" name="log-in-outline"></ion-icon>
               </div>
             </div>
             <div class="home hidden">
@@ -90,7 +91,7 @@
                 <div class="home-text hidden">SIGNUP</div>
               </div>
               <div class="home-icon hidden">
-                <ion-icon class="icon hidden" name="home-outline"></ion-icon>
+                <ion-icon class="icon2" name="duplicate-outline"></ion-icon>
               </div>
             </div>
           
@@ -100,6 +101,7 @@
 
 
        <div class="main-body-content">
+        
           <div class="broker-like-a-boss">
             <img class="broker-like-a-boss-img"src="imgs/broker-like-a-boss.png">
           </div>
@@ -124,7 +126,18 @@
                     you’re more in the game than ever before.</div>
                 </div>
               </div>
-              <div class="real-time-frame">
+              <div class="instant-access-frame tablet">
+                <div class="instant-access-img-frame">
+                  <img class="instant-access-img" src="imgs/instant-access.png">
+                </div>
+                <div class="instant-paragraph">
+                  <div class="instant-header">INSTANT ACCESS</div>
+                  <div class="instant-body-text"> Add buying power when you need it most. Our Flippers are
+                    available at the click of a button, rain or shine, to
+                    help you crush your selling goals.</div>
+                </div>
+              </div>
+              <div class="real-time-frame hidden">
                 <div class="real-time-img-frame">
                   <img class="real-time-img" src="imgs/realtime-info.png">
                 </div>
@@ -137,7 +150,7 @@
               </div>
             </div> 
             <div class="right-main-info">
-              <div class="instant-access-frame">
+              <div class="instant-access-frame hidden">
                 <div class="instant-access-img-frame">
                   <img class="instant-access-img" src="imgs/instant-access.png">
                 </div>
@@ -146,6 +159,17 @@
                   <div class="instant-body-text"> Add buying power when you need it most. Our Flippers are
                     available at the click of a button, rain or shine, to
                     help you crush your selling goals.</div>
+                </div>
+              </div>
+              <div class="real-time-frame tablet">
+                <div class="real-time-img-frame">
+                  <img class="real-time-img" src="imgs/realtime-info.png">
+                </div>
+                <div class="real-time-paragraph">
+                  <div class="real-time-header">REAL TIME INFO</div>
+                  <div class="real-time-text"> The platform shows what every Flipper has in the their
+                    shopping cart. Monitor dynamic pricing and release
+                    allocations all on the fly.</div>
                 </div>
               </div>
               <div class="inventory-frame">
@@ -161,7 +185,7 @@
               </div>
             </div>
             </div>
-            <!-- <div class="crush-the-comp">
+            <div class="crush-the-comp">
               <div class="crush-main-frame">
                 <div class="crush-img-frame">
                   <img class="crush-img" src="imgs/crush-the-competition.png">
@@ -173,7 +197,7 @@
                       buying decisions all with UFLIP.</div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
           <button class="sign-up-for-demo">SIGN UP FOR A DEMO</button>
         </div> 
