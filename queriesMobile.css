@@ -63,7 +63,8 @@
   }
 
   .nav-drop-body-content.hidden.active {
-    display: none;
+    opacity: 0;
+    height: 0;
   }
   .nav-drop-body-content.hidden.active {
     /* nav dop-body content */
@@ -131,7 +132,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 1.5rem;
 
     width: 561px;
     height: 23px;
@@ -238,6 +239,28 @@
     text-transform: uppercase;
 
     color: #fff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .icon3 {
+    width: 19px;
+    height: 18px;
+
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 10px;
+    /* identical to box height, or 56% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #febd1d;
 
     /* Inside auto layout */
 

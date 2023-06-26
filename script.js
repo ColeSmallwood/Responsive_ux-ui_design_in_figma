@@ -21,6 +21,11 @@ burgerEl.addEventListener("click", function () {
   navContentEL.classList.toggle("active");
 
   if (burgerEl.classList.contains("active")) {
+    navDropBodyEL.style.height = "auto";
+    navDropBodyEL.style.opacity = "1";
+    navContentEL.style.height = "auto";
+    navContentEL.style.opacity = "1";
+
     homeEL.forEach(function (element) {
       element.classList.remove("hidden");
     });
@@ -37,6 +42,9 @@ burgerEl.addEventListener("click", function () {
       element.classList.remove("hidden");
     });
   } else {
+    navDropBodyEL.style.height = "0";
+    navDropBodyEL.style.opacity = "0";
+
     homeEL.forEach(function (element) {
       element.classList.add("hidden");
     });
