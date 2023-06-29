@@ -36,11 +36,11 @@
   }
   .nav-drop-body-content.hidden {
     opacity: 0;
-    height: 0px;
+    height: 0;
   }
   .nav-drop-main-content .hidden {
     opacity: 0;
-    height: 0px;
+    height: 0;
   }
   .center-container {
     width: 100%;
@@ -48,15 +48,15 @@
 
   .burger-frame.hidden {
     opacity: 0;
-    height: 0px;
+    height: 0;
   }
   .inner-burger.hidden {
     opacity: 0;
-    height: 0px;
+    height: 0;
   }
   .navbar-toggle.hidden {
     opacity: 0;
-    height: 0px;
+    height: 0;
   }
 
   .header {
@@ -128,14 +128,7 @@
 
     margin-left: 1rem;
     margin-right: 1rem;
-    /* padding: 0px;
-  gap: 8.25px;
 
-  width: 852px;
-  height: 302px;
-
-  flex: none;
-  order: 0; */
     align-self: stretch;
   }
 
@@ -180,10 +173,6 @@
   .steps-img {
     width: 100%;
     height: auto;
-
-    /* flex: none;
-  order: 0;
-  flex-grow: 1; */
   }
 
   .more-tickets-less-distractions {
@@ -591,9 +580,9 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
-    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+    /* line-height: 1.7rem;
+    letter-spacing: 0.2rem; */
     text-transform: none;
     color: #ffffff;
     flex: none;
@@ -1364,7 +1353,7 @@
   .crush-main-frame {
     flex-direction: row;
     width: 41.6rem;
-    /* justify-content: start; */
+    justify-content: end;
   }
   .crush-paragraph {
     width: 100%;
